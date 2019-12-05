@@ -86,6 +86,8 @@ Sub VBAStocksCh2():
         ws.Cells(4, 16).Value = tickerVolume
         ws.Cells(4, 17).Value = greatestVolume
     
+        ws.Cells.EntireColumn.AutoFit
+
     Next ws
 
 End Sub

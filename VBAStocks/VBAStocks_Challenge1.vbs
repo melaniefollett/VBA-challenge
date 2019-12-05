@@ -1,6 +1,6 @@
 Sub VBAStocksCh1():    
 
-    'Challenge 1: Summary table of greatest increase, decrease, total
+    'Challenge 1: Summary table of greatest % increase, greatest % decrease, greatest total volume
     
     Dim greatestIncrease As Double
     Dim greatestDecrease As Double
